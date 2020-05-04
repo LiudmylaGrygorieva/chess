@@ -1,0 +1,56 @@
+:root {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.chess {
+display: inline-block;
+width: 640px;
+height: 640px;
+border: 30px solid transparent;
+border-image: url(../img/board.jpg)  30 / 30px stretch;
+}
+
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background:  #2A0A0A;
+    /*background-image: radial-gradient(to left top #8B0000 20% #2A0A0A 5%);*/
+}
+
+.black:nth-child(1)::before {
+    content:  " ";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: bisque;
+    /*background-image: radial-gradient(circle #F5FBEF #BDBDBD 30%);*/
+    /*background-image: radial-gradient(circle #848484  #2E2E2E 30%)*/
+}
+
+.wite {
+    float: left;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background: #F5DEB3 ;
+    /*background-image: radial-gradient(to right bottom  #FAFAD2 #EEE8AA 5%);*/
+}
+
+
+
+
+
