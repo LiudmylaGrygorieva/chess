@@ -13,9 +13,23 @@
     height: 640px;
     border: 30px solid transparent;
     border-image: url(../img/board.jpg)  30 / 30px stretch;
+    background: repeatinglinear-gradient(to left top #F5DEB3 20px, #F79F81 40px );
 }
 
-.black {
+
+/*.board {
+    display: inline-block;
+    width: 640px;
+    height: 640px;
+    border: 2px solid black;
+    background: repeatinglinear-gradient(to left top #F5DEB3 20px, #F79F81 40px );
+    repeating-radial-gradient();
+
+    
+
+}*/
+
+/*.black {
     float: left;
     width: 80px;
     height: 80px;
@@ -33,48 +47,4 @@
     text-align: center;
     vertical-align: middle;
     background: repeating-linear-gradient(to left bottom, #F5DEB3, #F79F81 2%)
-}
-
-
-.black:nth-child(1)::before {
-    content:  " ";
-    display: block;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    margin-left: 15px;
-    margin-top: 15px;
-    background: radial-gradient(circle closest-side, #2E2E2E 5px, #848484  20px, #2E2E2E  1px, #848484  30px)
-}
-.black:nth-child(3)::before {
-    content:  " ";
-    display: block;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    margin-left: 15px;
-    margin-top: 15px;
-    background: radial-gradient(circle closest-side, #2E2E2E 5px, #848484  20px, #2E2E2E  1px, #848484 30px)
-}
-
-.black:nth-child(62)::before {
-    content:  " ";
-    display: block;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    margin-left: 15px;
-    margin-top: 15px;
-    background: radial-gradient(circle closest-side, #BDBDBD  5px, white 20px, #BDBDBD 1px, white 30px)
-}
-
-.black:nth-child(64)::before {
-    content:  " ";
-    display: block;
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    margin-left: 15px;
-    margin-top: 15px;
-    background: radial-gradient(circle closest-side, #BDBDBD  5px, white 20px, #BDBDBD 1px, white 30px)
-}
+}*/
